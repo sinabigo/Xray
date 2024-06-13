@@ -68,7 +68,7 @@
           "headers" : {
             "Host" : "v2ra1.ecrgpk.workers.dev"
           },
-          "path" : "telegram @FreeVirGoolNet"
+          "path" : "telegram-@sinabigo-telegram-@sinabigo"
         }
       },
       "tag" : "proxy"
@@ -88,7 +88,7 @@
       "tag" : "block"
     }
   ],
-  "remarks" : "■🇨🇵 @SiNABiGO",
+  "remarks" : "■🇫🇷@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈کانال+تلگرام",
   "routing" : {
     "domainStrategy" : "IPIfNonMatch",
     "rules" : [
