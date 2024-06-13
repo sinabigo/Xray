@@ -4,17 +4,30 @@
       "domain:googleapis.cn" : "googleapis.com"
     },
     "servers" : [
-      "1.1.1.1"
+      {
+        "address" : "fakedns",
+        "domains" : [
+          "geosite:cn"
+        ]
+      },
+      "https:\/\/94.140.14.14\/dns-query",
+      {
+        "address" : "https:\/\/94.140.14.14\/dns-query",
+        "domains" : [
+          "geosite:cn",
+          "geosite:geolocation-cn"
+        ],
+        "expectIPs" : [
+          "geoip:cn"
+        ],
+        "port" : 53
+      }
     ]
   },
   "fakedns" : [
     {
-      "ipPool" : "198.20.0.0\/15",
-      "poolSize" : 512
-    },
-    {
-      "ipPool" : "fc00::\/64",
-      "poolSize" : 512
+      "ipPool" : "198.18.0.0\/15",
+      "poolSize" : 10000
     }
   ],
   "inbounds" : [
@@ -40,21 +53,25 @@
     }
   ],
   "log" : {
-    "loglevel" : "warning"
+    "loglevel" : "none"
   },
   "outbounds" : [
     {
+      "mux" : {
+        "concurrency" : 1,
+        "enabled" : true
+      },
       "protocol" : "vless",
       "settings" : {
         "vnext" : [
           {
-            "address" : "172.66.44.135",
-            "port" : 80,
+            "address" : "c.88981401.xyz",
+            "port" : 443,
             "users" : [
               {
                 "encryption" : "none",
                 "flow" : "",
-                "id" : "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+                "id" : "5bdf790f-0af2-4481-a624-41b66e7e3489",
                 "level" : 8
               }
             ]
@@ -63,12 +80,23 @@
       },
       "streamSettings" : {
         "network" : "ws",
-        "security" : "",
+        "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment"
+        },
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "cdn.ircp.online"
+        },
         "wsSettings" : {
           "headers" : {
-            "Host" : "v2ra1.ecrgpk.workers.dev"
+            "Host" : "cdn.ircp.online"
           },
-          "path" : "telegram-@sinabigo-telegram-@sinabigo"
+          "path" : "\/@ln2ray?ed=2560"
         }
       },
       "tag" : "proxy"
@@ -76,7 +104,7 @@
     {
       "protocol" : "freedom",
       "settings" : {
-
+        "domainStrategy" : "UseIP"
       },
       "tag" : "direct"
     },
@@ -86,19 +114,73 @@
 
       },
       "tag" : "block"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "fragment" : {
+          "interval" : "0",
+          "length" : "10-20",
+          "packets" : "tlshello"
+        }
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "security" : "",
+        "sockopt" : {
+
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "dns",
+      "tag" : "dns-out"
     }
   ],
-  "remarks" : "■🇫🇷@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈کانال+تلگرام",
+  "remarks" : "■@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈کانال+تلگرام",
   "routing" : {
-    "domainStrategy" : "IPIfNonMatch",
+    "domainStrategy" : "AsIs",
     "rules" : [
       {
-        "ip" : [
-          "1.1.1.1"
+        "inboundTag" : [
+          "dns-in"
         ],
+        "outboundTag" : "dns-out"
+      },
+      {
+        "domain" : [
+          "domain:googleapis.cn"
+        ],
+        "outboundTag" : "proxy"
+      },
+      {
+        "ip" : [
+          "geoip:private"
+        ],
+        "outboundTag" : "direct"
+      },
+      {
+        "ip" : [
+          "geoip:cn"
+        ],
+        "outboundTag" : "direct"
+      },
+      {
+        "domain" : [
+          "geosite:cn"
+        ],
+        "outboundTag" : "direct"
+      },
+      {
+        "domain" : [
+          "geosite:geolocation-cn"
+        ],
+        "outboundTag" : "direct"
+      },
+      {
         "outboundTag" : "proxy",
-        "port" : "53",
-        "type" : "field"
+        "port" : "0-65535"
       }
     ]
   }
