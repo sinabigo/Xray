@@ -1,7 +1,773 @@
-{ "dns":{ "hosts":{ "dns.google":[ "8.8.8.8", "8.8.4.4" ] }, "servers":[ "fakedns", "https:\/\/dns.google\/dns-query" ] }, "fakedns":[ { "ipPool":"198.20.0.0\/15", "poolSize":512 }, { "ipPool":"fc00::\/64", "poolSize":512 } ], "inbounds":[ { "listen":"127.0.0.1", "port":1080, "protocol":"socks", "settings":{ "auth":"noauth", "udp":true }, "sniffing":{ "destOverride":[ "http", "tls", "quic", "fakedns" ], "enabled":true, "routeOnly":true }, "tag":"socks" } ], "log":{ "loglevel":"warning" }, "outbounds":[ { "mux":{ "concurrency":8, "enabled":true, "xudpConcurrency":8, "xudpProxyUDP443":"reject" }, "protocol":"vless", "settings":{ "vnext":[ { "address":"172.67.77.182", "port":443, "users":[ { "encryption":"none", "flow":"", "id":"ce553ba5-e76a-4418-b4be-eac5126de5ae" } ] } ] }, "streamSettings":{ "network":"ws", "security":"tls", "sockopt":{ "dialerProxy":"fragment", "tcpKeepAliveIdle":30, "tcpNoDelay":true }, "tlsSettings":{ "allowInsecure":true, "alpn":[ "http\/1.1" ], "fingerprint":"chrome", "serverName":"77303450076147138590035081783963.v2line.net" }, "wsSettings":{ "headers":{ "Host":"77303450076147138590035081783963.v2line.net" }, "path":"\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED#@SiNABiGO-TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-SiNABiGO         TELEGRAM-SiNABiGO       TELEGRAM-SiNABiGO         TELEGRAM-SiNABiGO       TELEGRAM-SiNABiGO" } }, "tag":"proxy" }, { "protocol":"freedom", "settings":{ "domainStrategy":"AsIs", "fragment":{ "interval":"1", "length":"1-3", "packets":"1" } }, "streamSettings":{ "sockopt":{ "tcpKeepAliveIdle":30, "tcpNoDelay":true } }, "tag":"fragment" }, { "protocol":"freedom", "tag":"direct" }, { "protocol":"blackhole", "tag":"block" } ], "remarks":"🇺🇸@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام", "routing":{ "domainStrategy":"AsIs", "rules":[ { "outboundTag":"proxy", "port":"0-65535", "type":"field" } ] } },
-{ "dns":{ "hosts":{ "dns.google":[ "8.8.8.8", "8.8.4.4" ] }, "servers":[ "fakedns", "https:\/\/dns.google\/dns-query" ] }, "fakedns":[ { "ipPool":"198.20.0.0\/15", "poolSize":512 }, { "ipPool":"fc00::\/64", "poolSize":512 } ], "inbounds":[ { "listen":"127.0.0.1", "port":1080, "protocol":"socks", "settings":{ "auth":"noauth", "udp":true }, "sniffing":{ "destOverride":[ "http", "tls", "quic", "fakedns" ], "enabled":true, "routeOnly":true }, "tag":"socks" } ], "log":{ "loglevel":"warning" }, "outbounds":[ { "mux":{ "concurrency":8, "enabled":true, "xudpConcurrency":8, "xudpProxyUDP443":"reject" }, "protocol":"vless", "settings":{ "vnext":[ { "address":"104.26.14.85", "port":443, "users":[ { "encryption":"none", "flow":"", "id":"a7ca658b-9d3e-4677-961f-527e7b271939" } ] } ] }, "streamSettings":{ "network":"ws", "security":"tls", "sockopt":{ "dialerProxy":"fragment", "tcpKeepAliveIdle":30, "tcpNoDelay":true }, "tlsSettings":{ "allowInsecure":true, "alpn":[ "http\/1.1" ], "fingerprint":"chrome", "serverName":"99088769900656247307347901326869.v2line.net" }, "wsSettings":{ "headers":{ "Host":"99088769900656247307347901326869.v2line.net" }, "path":"\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED" } }, "tag":"proxy" }, { "protocol":"freedom", "settings":{ "domainStrategy":"AsIs", "fragment":{ "interval":"1", "length":"1-3", "packets":"1" } }, "streamSettings":{ "sockopt":{ "tcpKeepAliveIdle":30, "tcpNoDelay":true } }, "tag":"fragment" }, { "protocol":"freedom", "tag":"direct" }, { "protocol":"blackhole", "tag":"block" } ], "remarks":"🇩🇪@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام", "routing":{ "domainStrategy":"AsIs", "rules":[ { "outboundTag":"proxy", "port":"0-65535", "type":"field" } ] } },
-{ "dns":{ "hosts":{ "dns.google":[ "8.8.8.8", "8.8.4.4" ] }, "servers":[ "fakedns", "https:\/\/dns.google\/dns-query" ] }, "fakedns":[ { "ipPool":"198.20.0.0\/15", "poolSize":512 }, { "ipPool":"fc00::\/64", "poolSize":512 } ], "inbounds":[ { "listen":"127.0.0.1", "port":1080, "protocol":"socks", "settings":{ "auth":"noauth", "udp":true }, "sniffing":{ "destOverride":[ "http", "tls", "quic", "fakedns" ], "enabled":true, "routeOnly":true }, "tag":"socks" } ], "outbounds":[ { "protocol":"vless", "settings":{ "vnext":[ { "address":"tgju.org", "port":443, "users":[ { "encryption":"none", "id":"251780c1-1501-43b3-be2a-d144a20d479a","alterId":0,"Channel":"TELEGRAM-@SiNABiGO     TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO ","security":"auto","encryption":"@sinabigo","flow":"" } ] } ] }, "streamSettings":{ "httpupgradeSettings":{ "host":"hdfy5persiaserverc3.freeairlaines.com", "path":"\/VM9JThTKh0lWQPcIDB" }, "network":"httpupgrade", "security":"tls", "tlsSettings":{ "alpn":[ "h2", "http\/1.1" ], "fingerprint":"chrome", "serverName":"hdfy5persiaserverc3.freeairlaines.com" } }, "tag":"proxy" }, { "protocol":"freedom", "tag":"direct" }, { "protocol":"blackhole", "tag":"block" } ], "remarks":"🇧🇪@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈🏻کانال+تلگرام", "routing":{ "domainStrategy":"AsIs", "rules":[ { "inboundTag":[ "api" ], "outboundTag":"api", "type":"field" }, { "outboundTag":"proxy", "port":"0-65535", "type":"field" } ] } },
-{ "dns":{ "hosts":{ "dns.google":[ "8.8.8.8", "8.8.4.4" ] }, "servers":[ "fakedns", "https:\/\/dns.google\/dns-query" ] }, "fakedns":[ { "ipPool":"198.20.0.0\/15", "poolSize":512 }, { "ipPool":"fc00::\/64", "poolSize":512 } ], "inbounds":[ { "listen":"127.0.0.1", "port":1080, "protocol":"socks", "settings":{ "auth":"noauth", "udp":true }, "sniffing":{ "destOverride":[ "http", "tls", "quic", "fakedns" ], "enabled":true, "routeOnly":true }, "tag":"socks" } ], "log":{ "loglevel":"warning" }, "outbounds":[ { "mux":{ "concurrency":8, "enabled":true, "xudpConcurrency":8, "xudpProxyUDP443":"reject" }, "protocol":"vless", "settings":{ "vnext":[ { "address":"104.16.32.228", "port":443, "users":[ { "encryption":"none", "flow":"", "id":"4af9babc-e47e-43fe-86cc-2f07fdbc7543" } ] } ] }, "streamSettings":{ "network":"ws", "security":"tls", "sockopt":{ "dialerProxy":"fragment", "tcpKeepAliveIdle":30, "tcpNoDelay":true }, "tlsSettings":{ "allowInsecure":true, "alpn":[ "http\/1.1" ], "fingerprint":"chrome", "serverName":"36292970673925855479161748246826.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou" }, "wsSettings":{ "headers":{ "Host":"36292970673925855479161748246826.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou", "User-Agent":"@SiNABiGO-TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-SiNABiGO         TELEGRAM-SiNABiGO       TELEGRAM-SiNABiGO         TELEGRAM-SiNABiGO       TELEGRAM-SiNABiGO" }, "host":"36292970673925855479161748246826.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou", "path":"\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED" } }, "tag":"proxy" }, { "protocol":"freedom", "settings":{ "domainStrategy":"AsIs", "fragment":{ "interval":"1", "length":"1-3", "packets":"1" } }, "streamSettings":{ "sockopt":{ "tcpKeepAliveIdle":30, "tcpNoDelay":true } }, "tag":"fragment" }, { "protocol":"freedom", "tag":"direct" }, { "protocol":"blackhole", "tag":"block" } ], "remarks":"🇫🇷@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈🏻کانال+تلگرام", "routing":{ "domainStrategy":"AsIs", "rules":[ { "outboundTag":"proxy", "port":"0-65535", "type":"field" } ] } },
-{"remarks":"🇳🇱@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈🏻کانال+تلگرام","log":{"loglevel":"warning"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","sniffing":{"enabled":true,"destOverride":["http","tls"],"routeOnly":false},"settings":{"auth":"noauth","udp":true,"allowTransparent":false}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","sniffing":{"enabled":true,"destOverride":["http","tls"],"routeOnly":false},"settings":{"auth":"noauth","udp":true,"allowTransparent":false}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"172.67.77.182","port":443,"users":[{"id":"53d3ee33-805e-40a6-ade5-74dded4ba543","alterId":0,"email":"user","security":"auto","encryption":"none","flow":""}]}]},"streamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":true,"serverName":"11566462974246098529376317200726.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","alpn":["http/1.1"],"fingerprint":"chrome","show":false},"wsSettings":{"path":"/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED","headers":{"Host":"11566462974246098529376317200726.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","User-Agent":"@SiNABiGO- TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO"}},"sockopt":{"dialerProxy":"fragment","tcpKeepAliveIdle":30,"tcpNoDelay":true}},"mux":{"enabled":true,"concurrency":8,"xudpConcurrency":8,"xudpProxyUDP443":"reject"}},{"tag":"fragment","protocol":"freedom","settings":{"domainStrategy":"AsIs","fragment":{"packets":"1","length":"1-3","interval":"1"}},"streamSettings":{"sockopt":{"tcpKeepAliveIdle":30,"tcpNoDelay":true}}}],"routing":{"domainStrategy":"AsIs","rules":[{"id":"5627785659655799759","type":"field","port":"0-65535","outboundTag":"proxy","enabled":true}]}},
-{"remarks":"🇬🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈🏻کانال+تلگرام","log":{"loglevel":"warning"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","sniffing":{"enabled":true,"destOverride":["http","tls"],"routeOnly":false},"settings":{"auth":"noauth","udp":true,"allowTransparent":false}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","sniffing":{"enabled":true,"destOverride":["http","tls"],"routeOnly":false},"settings":{"auth":"noauth","udp":true,"allowTransparent":false}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"104.26.14.85","port":443,"users":[{"id":"1c7386fd-4d22-4eb7-94af-a87ab8124062","alterId":0,"email":"user","security":"auto","encryption":"none","flow":""}]}]},"streamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":true,"serverName":"87035266705892489641348351956215.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","alpn":["http/1.1"],"fingerprint":"chrome","show":false},"wsSettings":{"path":"/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED","headers":{"Host":"87035266705892489641348351956215.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","User-Agent":"@SiNABiGO- TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO"}},"sockopt":{"dialerProxy":"fragment","tcpKeepAliveIdle":30,"tcpNoDelay":true}},"mux":{"enabled":true,"concurrency":8,"xudpConcurrency":8,"xudpProxyUDP443":"reject"}},{"tag":"fragment","protocol":"freedom","settings":{"domainStrategy":"AsIs","fragment":{"packets":"1","length":"1-3","interval":"1"}},"streamSettings":{"sockopt":{"tcpKeepAliveIdle":30,"tcpNoDelay":true}}}],"routing":{"domainStrategy":"AsIs","rules":[{"id":"5627785659655799759","type":"field","port":"0-65535","outboundTag":"proxy","enabled":true}]}},
-{ "dns":{ "hosts":{ "dns.google":[ "8.8.8.8", "8.8.4.4" ] }, "servers":[ "fakedns", "https:\/\/dns.google\/dns-query" ] }, "fakedns":[ { "ipPool":"198.20.0.0\/15", "poolSize":512 }, { "ipPool":"fc00::\/64", "poolSize":512 } ], "inbounds":[ { "listen":"127.0.0.1", "port":1080, "protocol":"socks", "settings":{ "auth":"noauth", "udp":true }, "sniffing":{ "destOverride":[ "http", "tls", "quic", "fakedns" ], "enabled":true, "routeOnly":true }, "tag":"socks" } ], "log":{ "loglevel":"warning" }, "outbounds":[ { "mux":{ "concurrency":8, "enabled":true, "xudpConcurrency":8, "xudpProxyUDP443":"reject" }, "protocol":"vless", "settings":{ "vnext":[ { "address":"104.26.15.148", "port":443, "users":[ { "encryption":"none", "flow":"", "id":"ce553ba5-e76a-4418-b4be-eac5126de5ae" } ] } ] }, "streamSettings":{ "network":"ws", "security":"tls", "sockopt":{ "dialerProxy":"fragment", "tcpKeepAliveIdle":30, "tcpNoDelay":true }, "tlsSettings":{ "allowInsecure":true, "alpn":[ "http\/1.1" ], "fingerprint":"chrome", "serverName":"75772343863215710816078047239134.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou" }, "wsSettings":{ "headers":{ "Host":"75772343863215710816078047239134.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou", "User-Agent":"@SiNABiGO-TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-@SiNABiGO         TELEGRAM-@SiNABiGO       TELEGRAM-SiNABiGO         TELEGRAM-SiNABiGO       TELEGRAM-SiNABiGO         TELEGRAM-SiNABiGO       TELEGRAM-SiNABiGO" }, "path":"\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED" } }, "tag":"proxy" }, { "protocol":"freedom", "settings":{ "domainStrategy":"AsIs", "fragment":{ "interval":"1", "length":"1-3", "packets":"1" } }, "streamSettings":{ "sockopt":{ "tcpKeepAliveIdle":30, "tcpNoDelay":true } }, "tag":"fragment" }, { "protocol":"freedom", "tag":"direct" }, { "protocol":"blackhole", "tag":"block" } ], "remarks":"🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈🏻کانال+تلگرام", "routing":{ "domainStrategy":"AsIs", "rules":[ { "outboundTag":"proxy", "port":"0-65535", "type":"field" } ] } }]
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "tgju.org",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "251780c1-1501-43b3-be2a-d144a20d479a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "httpupgradeSettings" : {
+          "host" : "hdfy5persiaserverc3.freeairlaines.com",
+          "path" : "\/VM9JThTKh0lWQPcIDB"
+        },
+        "network" : "httpupgrade",
+        "security" : "tls",
+        "tlsSettings" : {
+          "alpn" : [
+            "h2",
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "hdfy5persiaserverc3.freeairlaines.com"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇧🇪@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "mux" : {
+        "concurrency" : 8,
+        "enabled" : true,
+        "xudpConcurrency" : 8,
+        "xudpProxyUDP443" : "reject"
+      },
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "104.26.14.85",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "a7ca658b-9d3e-4677-961f-527e7b271939"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "ws",
+        "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment",
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        },
+        "tlsSettings" : {
+          "allowInsecure" : true,
+          "alpn" : [
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "99088769900656247307347901326869.v2line.net"
+        },
+        "wsSettings" : {
+          "headers" : {
+            "Host" : "99088769900656247307347901326869.v2line.net"
+          },
+          "path" : "\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs",
+        "fragment" : {
+          "interval" : "1",
+          "length" : "1-3",
+          "packets" : "1"
+        }
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇩🇪@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "mux" : {
+        "concurrency" : 8,
+        "enabled" : true,
+        "xudpConcurrency" : 8,
+        "xudpProxyUDP443" : "reject"
+      },
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "172.67.77.182",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "ce553ba5-e76a-4418-b4be-eac5126de5ae"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "ws",
+        "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment",
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        },
+        "tlsSettings" : {
+          "allowInsecure" : true,
+          "alpn" : [
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "77303450076147138590035081783963.v2line.net"
+        },
+        "wsSettings" : {
+          "headers" : {
+            "Host" : "77303450076147138590035081783963.v2line.net"
+          },
+          "path" : "\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED#@SiNABiGO - TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs",
+        "fragment" : {
+          "interval" : "1",
+          "length" : "1-3",
+          "packets" : "1"
+        }
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇺🇸@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "servers" : [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "date.akco16.fun",
+            "port" : 2082,
+            "users" : [
+              {
+                "encryption" : "none",
+                "id" : "4d41d251-8ce8-4300-9d6f-01caa37cbf3f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "httpupgradeSettings" : {
+          "headers" : {
+            "Pragma" : "no-cache"
+          },
+          "host" : "beli.asraschool.ir",
+          "path" : "\/?ed=2560"
+        },
+        "network" : "httpupgrade"
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇧🇪@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "indeed.com",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "b9e82117-ed3a-4098-8153-100ca12aa523",
+                "level" : 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "grpcSettings" : {
+          "health_check_timeout" : 20,
+          "idle_timeout" : 115,
+          "serviceName" : "VM9JThTUmfBox4IUADVrA"
+        },
+        "network" : "grpc",
+        "security" : "tls",
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "hdfy5persiaserverc1.afsharidempire.uk"
+        }
+      },
+      "tag" : "c1 tls_h2 grpc CDN vless"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs"
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 100,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+
+      },
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "settings" : {
+
+      },
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "c1 tls_h2 grpc CDN vless",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "domain" : [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "ip" : [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "trojan",
+      "settings" : {
+        "servers" : [
+          {
+            "address" : "fonts.com",
+            "level" : 8,
+            "password" : "b9e82117-ed3a-4098-8153-100ca12aa523",
+            "port" : 443
+          }
+        ]
+      },
+      "streamSettings" : {
+        "grpcSettings" : {
+          "health_check_timeout" : 20,
+          "idle_timeout" : 115,
+          "serviceName" : "QClOez8RElKMCmUmfBox4IUADVrA"
+        },
+        "network" : "grpc",
+        "security" : "tls",
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "hdfy5persiaserverc3.freeairlaines.com"
+        }
+      },
+      "tag" : "c3 tls grpc CDN trojan"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs"
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 100,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+
+      },
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "settings" : {
+
+      },
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "c3 tls grpc CDN trojan",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "domain" : [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "ip" : [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+}
