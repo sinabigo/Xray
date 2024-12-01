@@ -589,7 +589,7 @@
       "tag" : "block"
     }
   ],
-  "remarks" : "c1 tls_h2 grpc CDN vless",
+  "remarks" : "🇳🇱@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام grpc",
   "routing" : {
     "domainStrategy" : "AsIs",
     "rules" : [
@@ -736,7 +736,7 @@
       "tag" : "block"
     }
   ],
-  "remarks" : "c3 tls grpc CDN trojan",
+  "remarks" : "🇳🇱@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام",
   "routing" : {
     "domainStrategy" : "AsIs",
     "rules" : [
