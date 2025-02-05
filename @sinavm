@@ -1,27 +1,775 @@
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@hk01.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=GN3MVxR_r96bcN9g5aahxRhdJ2P84H2K0SzNJ7v8KWc&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@hk02.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=_JucrB3QGJT8o5SUj8T97cjdBfCH798VDiXR1LhbulQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@hk03.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=L9bdPVJar46YyWxpCPXz4trctDD4r4Z5zL1H1zHX8nY&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@hk04.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=7FUPFfHmcQGEF1WsK5UV28TAj_cZcBXgm_M9pFHBcEg&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@hk08.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=IkdB1SppBdstqC4HmsnGn2uMrOJIRnfTN3f0GEmOpSo&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@sg01.ssr.ee:55560?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=XCxD6TpMsDdnUvWVmN2VnP3fOhIc22Oyo7JLZ1qGajQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@sg02.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=MpL4k5knJNs-VAkUmu0XpUDFaPvf-BSHN1WxaqibOl4&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@sg03.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=6yJHL6qhzGx4VgjGnlcBUU1q30IH7Rm6Savs4e4pZng&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@sg04.ssr.ee:55560?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=Dvv84goWLMnFoZWWLI8xtEErCIao_XnzXUVz9ryVSAU&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@jp02.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=-V84l1G--c_u3Sg7d4Rm5esq1uizUDAcnlxjV5qG7jQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@jp03.ssr.ee:55560?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=3QV_m9Ukb2hl3veja4UuvjC79lcTZf7nIgoHwVyBRg4&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@sh.ssr.ee:55560?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=-V84l1G--c_u3Sg7d4Rm5esq1uizUDAcnlxjV5qG7jQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@krcc.ssr.ee:55560?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=_JZ866R1KiMlORcXdDkSAw6WtEx7hEz1ftQ0Yjq1vxk&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@kr03.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=lqPQR0Kfw6Z3LL-yiq8vmoQ6j9gC3lNOiokq84kzBjQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@kr04.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=EPdKAx6FEkt5xxhZZJfJw6vldhnDGtFDDB9EE5MsjxI&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@kr05.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=RVFY7VhTIdNKrLd31EyjXgIlfxSkVEwNqVVsETClkRg&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@kr06.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=urliPPNaIJbTNMuUSSg6iRpTh5GNlGiVYUBxSWm4Iww&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us01.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=Fz8HhyDXOLkw3NU59cbyvLvyZEiaMhjmHZ8P-R5RxF0&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us02.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=AeJ40fWPYK3WSDtY_AGv3ewG_kwQvAoDtf3KIgk1DRU&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us03.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=XjWpqtyIQmXsbx5-HXLZmgJpr9V4Xzqtx3PLbCx_URE&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us04.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=--Ssq_QptGzn8kl6PwVSRKglFCYXJHLUX2-Q4IGCgl0&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us09.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=wH77zrCUJsK9onL9tgB3QdTXFOlCUBFKlvPw16N1nCA&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us10.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=b5MToLVScOCFJ29Ln9kNTKEhbc6Eiqvlv4WFSUU7ZhQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@us01.ssr.ee:55560?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=b5MToLVScOCFJ29Ln9kNTKEhbc6Eiqvlv4WFSUU7ZhQ&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@de01.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=J9tDU1LgAsPOktugcNeM6PDXTZqyiKj5bVyyb9qVUzY&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@db01.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=3tyvN86mGzMnYhAMX06SJMYSWhG02rqzTr7GjS-OaWI&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@db02.ssr.ee:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=xtls-rprx-vision&fp=chrome&sni=itunes.apple.com&pbk=0Vvc6EFXPQHWWqyhG4wek-MEh_q6a9CDMY7U-TSHGV4&sid=6ba85179e30d4fc2#%40%F0%9D%91%BA%F0%9D%92%8A%F0%9D%91%B5%F0%9D%91%A8%F0%9D%91%A9%F0%9D%92%8A%F0%9D%91%AE%F0%9D%91%B6%F0%9F%91%88%F0%9F%8F%BB%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
+[
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "tgju.org",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "251780c1-1501-43b3-be2a-d144a20d479a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "httpupgradeSettings" : {
+          "host" : "hdfy5persiaserverc3.freeairlaines.com",
+          "path" : "\/VM9JThTKh0lWQPcIDB"
+        },
+        "network" : "httpupgrade",
+        "security" : "tls",
+        "tlsSettings" : {
+          "alpn" : [
+            "h2",
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "hdfy5persiaserverc3.freeairlaines.com"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇧🇪@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "mux" : {
+        "concurrency" : 8,
+        "enabled" : true,
+        "xudpConcurrency" : 8,
+        "xudpProxyUDP443" : "reject"
+      },
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "104.26.14.85",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "a7ca658b-9d3e-4677-961f-527e7b271939"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "ws",
+        "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment",
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        },
+        "tlsSettings" : {
+          "allowInsecure" : true,
+          "alpn" : [
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "99088769900656247307347901326869.v2line.net"
+        },
+        "wsSettings" : {
+          "headers" : {
+            "Host" : "99088769900656247307347901326869.v2line.net"
+          },
+          "path" : "\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs",
+        "fragment" : {
+          "interval" : "1",
+          "length" : "1-3",
+          "packets" : "1"
+        }
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇩🇪@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "mux" : {
+        "concurrency" : 8,
+        "enabled" : true,
+        "xudpConcurrency" : 8,
+        "xudpProxyUDP443" : "reject"
+      },
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "172.67.77.182",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "ce553ba5-e76a-4418-b4be-eac5126de5ae"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "ws",
+        "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment",
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        },
+        "tlsSettings" : {
+          "allowInsecure" : true,
+          "alpn" : [
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "77303450076147138590035081783963.v2line.net"
+        },
+        "wsSettings" : {
+          "headers" : {
+            "Host" : "77303450076147138590035081783963.v2line.net"
+          },
+          "path" : "\/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS-ADVANCED#@SiNABiGO - TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO           TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-@SiNABiGO          TELEGRAM-@SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO          TELEGRAM-SiNABiGO        TELEGRAM-SiNABiGO"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs",
+        "fragment" : {
+          "interval" : "1",
+          "length" : "1-3",
+          "packets" : "1"
+        }
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 30,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇺🇸@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "servers" : [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "date.akco16.fun",
+            "port" : 2082,
+            "users" : [
+              {
+                "encryption" : "none",
+                "id" : "4d41d251-8ce8-4300-9d6f-01caa37cbf3f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "httpupgradeSettings" : {
+          "headers" : {
+            "Pragma" : "no-cache"
+          },
+          "host" : "beli.asraschool.ir",
+          "path" : "\/?ed=2560"
+        },
+        "network" : "httpupgrade"
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇧🇪@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "indeed.com",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "b9e82117-ed3a-4098-8153-100ca12aa523",
+                "level" : 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "grpcSettings" : {
+          "health_check_timeout" : 20,
+          "idle_timeout" : 115,
+          "serviceName" : "VM9JThTUmfBox4IUADVrA"
+        },
+        "network" : "grpc",
+        "security" : "tls",
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "hdfy5persiaserverc1.afsharidempire.uk"
+        }
+      },
+      "tag" : "c1 tls_h2 grpc CDN vless"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs"
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 100,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+
+      },
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "settings" : {
+
+      },
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇳🇱@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام grpc",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "domain" : [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "ip" : [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+},
+
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "8.8.8.8",
+        "8.8.4.4"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "trojan",
+      "settings" : {
+        "servers" : [
+          {
+            "address" : "fonts.com",
+            "level" : 8,
+            "password" : "b9e82117-ed3a-4098-8153-100ca12aa523",
+            "port" : 443
+          }
+        ]
+      },
+      "streamSettings" : {
+        "grpcSettings" : {
+          "health_check_timeout" : 20,
+          "idle_timeout" : 115,
+          "serviceName" : "QClOez8RElKMCmUmfBox4IUADVrA"
+        },
+        "network" : "grpc",
+        "security" : "tls",
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "hdfy5persiaserverc3.freeairlaines.com"
+        }
+      },
+      "tag" : "c3 tls grpc CDN trojan"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs"
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 100,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+
+      },
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "settings" : {
+
+      },
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇳🇱@𝑺𝒊𝑵𝑨𝑩𝒊𝑮𝑶👈🏻کانال+تلگرام",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "domain" : [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "ip" : [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+}
+]
