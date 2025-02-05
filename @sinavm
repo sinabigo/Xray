@@ -1,3 +1,7 @@
+# Copyright (c) 2024 Sina Bigo
+# All rights reserved.  
+# This configuration file is for personal use only. Redistribution, modification, or commercial use is prohibited without explicit permission.
+
 [
 {
   "dns" : {
@@ -44,52 +48,89 @@
       "tag" : "socks"
     }
   ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
   "outbounds" : [
     {
       "protocol" : "vless",
       "settings" : {
         "vnext" : [
           {
-            "address" : "tgju.org",
+            "address" : "172.66.168.200",
             "port" : 443,
             "users" : [
               {
                 "encryption" : "none",
                 "flow" : "",
-                "id" : "251780c1-1501-43b3-be2a-d144a20d479a"
+                "id" : "a5916305-0a0e-4462-b077-af89ec11225a"
               }
             ]
           }
         ]
       },
       "streamSettings" : {
-        "httpupgradeSettings" : {
-          "host" : "hdfy5persiaserverc3.freeairlaines.com",
-          "path" : "\/VM9JThTKh0lWQPcIDB"
-        },
-        "network" : "httpupgrade",
+        "network" : "ws",
         "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment",
+          "tcpKeepAliveIdle" : 100
+        },
         "tlsSettings" : {
+          "allowInsecure" : false,
           "alpn" : [
             "h2",
             "http\/1.1"
           ],
           "fingerprint" : "chrome",
-          "serverName" : "hdfy5persiaserverc3.freeairlaines.com"
+          "serverName" : "Is1-vLESs.greeNssH.ORG"
+        },
+        "wsSettings" : {
+          "headers" : {
+            "Host" : "Is1-vLESs.greeNssH.ORG"
+          },
+          "path" : "\/vless"
         }
       },
       "tag" : "proxy"
     },
     {
       "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs",
+        "fragment" : {
+          "interval" : "1-2",
+          "length" : "6-9",
+          "packets" : "tlshello"
+        }
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 100
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+
+      },
       "tag" : "direct"
     },
     {
       "protocol" : "blackhole",
+      "settings" : {
+        "response" : {
+          "type" : "http"
+        }
+      },
       "tag" : "block"
     }
   ],
-  "remarks" : "🇧🇪@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎👈🏻کانال+تلگرام",
+  "remarks" : "🇮🇸@𝐒𝐢𝐍𝐀𝐕𝐌👈کانال تلگرام (Fragment)",
   "routing" : {
     "domainStrategy" : "AsIs",
     "rules" : [
@@ -98,6 +139,23 @@
           "api"
         ],
         "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "domain" : [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "ip" : [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
+        "outboundTag" : "direct",
         "type" : "field"
       },
       {
